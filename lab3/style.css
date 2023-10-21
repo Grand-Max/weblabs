@@ -1,0 +1,21 @@
+body {
+    font: 1em sans-serif;
+    padding: 2rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+.profile {
+  width: 170px;
+  display: inline-block;
+}
+
+
+p {
+  margin: 7px 0px;
+  font-weight: bold;
+} 
+.name, .city, .country, .postcode {
+  font-weight: lighter;
+}
+
