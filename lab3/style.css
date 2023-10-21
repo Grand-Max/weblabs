@@ -1,15 +1,17 @@
 body {
     font: 1em sans-serif;
     padding: 2rem;
-    width: 100%;
     margin: 0 auto;
   }
 
-.profile {
-  width: 170px;
-  display: inline-block;
+#info {
+  margin-top: 20px;
 }
 
+.profile {
+  width: 180px;
+  display: inline-block;
+}
 
 p {
   margin: 7px 0px;

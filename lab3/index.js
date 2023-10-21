@@ -1,6 +1,7 @@
 
 
 const btn  = document.getElementById("load");
+const info  = document.getElementById("info");
 
 btn.addEventListener("click", (event) => { 
 
@@ -72,5 +73,5 @@ function addProfile(profile){
     profileDiv.appendChild(postcodeValue);
 
     // Append the profileDiv to the body of the document
-    document.body.appendChild(profileDiv);
+    info.appendChild(profileDiv);
 }
